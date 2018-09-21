@@ -56,3 +56,13 @@ describe('GET /conversations/:id ', () => {
     expect(response.statusCode).toBe(200);
   });
 });
+
+afterAll(() => {
+  // clean up file afterward
+  try {
+    fs.writeFileSync('./__tests__/test_database.json', JSON.stringify({}));
+  } catch (err) {
+    console.log(err);
+    process.exit(1);
+  }
+});
