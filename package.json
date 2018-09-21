@@ -1,0 +1,26 @@
+{
+  "name": "example-backend-challenge",
+  "version": "1.0.0",
+  "description": "Hello there! :wave:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rithmschool/example-backend-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rithmschool/example-backend-challenge/issues"
+  },
+  "homepage": "https://github.com/rithmschool/example-backend-challenge#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.4"
+  }
+}
