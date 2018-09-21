@@ -4,7 +4,7 @@
   "description": "Hello there! :wave:",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "NODE_ENV=test jest",
     "start": "nodemon index.js"
   },
   "repository": {
@@ -19,8 +19,12 @@
   },
   "homepage": "https://github.com/rithmschool/example-backend-challenge#readme",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
-    "nodemon": "^1.18.4"
+    "body-parser": "1.18.3",
+    "express": "4.16.3",
+    "nodemon": "1.18.4"
+  },
+  "devDependencies": {
+    "jest": "23.6.0",
+    "supertest": "3.3.0"
   }
 }
